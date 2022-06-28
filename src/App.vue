@@ -18,7 +18,9 @@ export default {
   components: { Header, AboutUs, OurServices, Footer },
 
   mounted() {
-    AOS.init();
+    AOS.init({
+      anchorPlacement: 'bottom-center',
+    });
   }
 }
 </script>
@@ -33,6 +35,12 @@ export default {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', 'Aileron', sans-serif;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 #app {
