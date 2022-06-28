@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Aileron';
+    src: local('Aileron Bold'), local('Aileron-Bold'),
+        url('Aileron-Bold.woff2') format('woff2'),
+        url('Aileron-Bold.woff') format('woff'),
+        url('Aileron-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
