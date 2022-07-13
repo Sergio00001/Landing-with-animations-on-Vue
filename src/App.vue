@@ -18,9 +18,7 @@ export default {
   components: { Header, AboutUs, OurServices, Footer },
 
   mounted() {
-    AOS.init({
-      anchorPlacement: 'bottom-center',
-    });
+    AOS.init();
   }
 }
 </script>
@@ -46,7 +44,6 @@ html body {
 #app {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 a {
